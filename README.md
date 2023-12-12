@@ -8,5 +8,13 @@
 - Kali Linux 2023.4 - x64 Gen2
 - Azure Standard_D4s_v3 (4 vcpus, 16 GiB memory, 40 GiB disk)
 - Xfce Desktop Environment (KDE not used due to timeout issues with Azure)
-- xrdp Remote Desktop Server
+- xRDP Remote Desktop Server
 - Easy and quick deployment
+
+## First time setup
+1. Deploy the template to Azure
+2. Connect to the VM via SSH
+3. Run the following commands:
+```bash
+wget -qO- https://raw.githubusercontent.com/SlugSecurity/Azure-Kali-Quickstart/main/scripts/setup.sh | sh
+```

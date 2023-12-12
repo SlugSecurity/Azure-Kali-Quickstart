@@ -198,24 +198,6 @@
 				"publisher": "[variables('imagePublisher')]",
 				"product": "[variables('imageOffer')]"
 			}
-		},
-		{
-			"type": "Microsoft.Compute/virtualMachines/extensions",
-			"name": "[concat(variables('vmName'),'/setup')]",
-			"apiVersion": "2020-12-01",
-			"location": "[variables('location')]",
-			"dependsOn": [
-				"[resourceId('Microsoft.Compute/virtualMachines', variables('vmName'))]"
-			],
-			"properties": {
-				"publisher": "Microsoft.Azure.Extensions",
-				"type": "CustomScript",
-				"typeHandlerVersion": "2.1",
-				"autoUpgradeMinorVersion": true,
-				"settings": {
-					"commandToExecute": "wget -qO- https://raw.githubusercontent.com/SlugSecurity/Azure-Kali-Quickstart/main/scripts/setup.sh | sh"
-				}
-			}
 		}
 	]
 }

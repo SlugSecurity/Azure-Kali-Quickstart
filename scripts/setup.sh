@@ -11,3 +11,6 @@ echo -e 'Section "Extensions"\n    Option "Composite" "Disable"\nEndSection' | s
 sudo systemctl enable xrdp
 echo "exec startxfce4" > ~/.xsession
 sudo service xrdp restart
+
+echo "Setup complete. Rebooting..."
+reboot
