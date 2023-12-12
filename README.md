@@ -7,6 +7,6 @@
 ## Features
 - Kali Linux 2023.4 - x64 Gen2
 - Azure Standard_D2s_v3 (2 vcpus, 8 GiB memory, 40 GiB disk)
-- XCFE Desktop Environment (KDE not used due to timeout issues with Azure)
-- XRDP Remote Desktop Server
+- Xfce Desktop Environment (KDE not used due to timeout issues with Azure)
+- xrdp Remote Desktop Server
 - Easy and quick deployment
