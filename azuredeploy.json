@@ -16,13 +16,13 @@
 				"password"
 			],
 			"metadata": {
-				"description": "Type of authentication to use on the Virtual Machine. SSH key is recommended."
+				"description": "Type of authentication to use on the Virtual Machine. SSH key is recommended. If picking a password, make sure it's complex, attackers commonly try to brute force passwords. Do not reuse passwords from other accounts."
 			}
 		},
 		"adminPasswordOrKey": {
 			"type": "securestring",
 			"metadata": {
-				"description": "SSH Key or password for the Virtual Machine. A strong password is recommended, do not reuse passwords between services."
+				"description": "SSH Key or password for the Virtual Machine. SSH key is recommended."
 			}
 		}
 	},
