@@ -1,0 +1,9 @@
+{
+	"$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+	"type": "QuickStart",
+	"itemDisplayName": "Slug Security's Kali Linux Azure Template",
+	"description": "This template uses the Azure Linux CustomScript extension to deploy KDE Plasma Desktop on the VM with XRDP.",
+	"summary": "Kali Linux 2023.4 with KDE Plasma Desktop and XRDP",
+	"githubUsername": "0xfbad",
+	"dateUpdated": "2023-12-11"
+}
