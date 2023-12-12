@@ -52,7 +52,7 @@
 				]
 			}
 		},
-		"networkSecurityGroupName": "default-NSG"
+		"networkSecurityGroupName": "SlugNSG"
 	},
 	"resources": [
 		{
