@@ -155,7 +155,7 @@
 			}
 		},
 		{
-			"apiVersion": "2020-12-01",
+			"apiVersion": "2022-11-01",
 			"type": "Microsoft.Compute/virtualMachines",
 			"name": "[variables('vmName')]",
 			"location": "[variables('location')]",
@@ -192,6 +192,11 @@
 						}
 					]
 				}
+			},
+			"plan": {
+				"name": "[variables('imageSku')]",
+				"publisher": "[variables('imagePublisher')]",
+				"product": "[variables('imageOffer')]"
 			}
 		},
 		{
