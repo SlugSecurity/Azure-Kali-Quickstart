@@ -3,8 +3,8 @@
 sudo hostnamectl set-hostname slugbox
 touch ~/.hushlogin
 
-DEBIAN_FRONTEND=noninteractive sudo apt update
-DEBIAN_FRONTEND=noninteractive sudo apt install kali-desktop-kde xrdp -y
+sudo DEBIAN_FRONTEND=noninteractive apt update
+sudo DEBIAN_FRONTEND=noninteractive apt install kali-desktop-kde xrdp -y
 
 sudo systemctl enable xrdp
 echo "exec startkde" > ~/.xsession
