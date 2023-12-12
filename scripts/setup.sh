@@ -13,4 +13,4 @@ echo "exec startxfce4" > ~/.xsession
 sudo service xrdp restart
 
 echo "Setup complete. Rebooting..."
-sudo reboot
+sudo systemctl reboot
