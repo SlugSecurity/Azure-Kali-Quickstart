@@ -5,8 +5,8 @@
 [![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FSlugSecurity%2FAzure-Kali-Quickstart%2Fmain%2Fazuredeploy.json)
 
 ## Features
-- Kali Linux 2023.4
-- KDE-Plasma Desktop Environment
-- ZSH Shell
+- Kali Linux 2023.4 - x64 Gen2
+- Azure Standard_D2s_v3 (2 vcpus, 8 GiB memory, 40 GiB disk)
+- XCFE Desktop Environment (KDE not used due to timeout issues with Azure)
 - XRDP Remote Desktop Server
 - Easy and quick deployment
