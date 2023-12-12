@@ -12,5 +12,4 @@ sudo systemctl enable xrdp
 echo "exec startxfce4" > ~/.xsession
 sudo service xrdp restart
 
-echo "Setup complete. Rebooting..."
-sudo systemctl reboot
+echo "Setup complete. You can now RDP into this machine."
