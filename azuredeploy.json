@@ -29,7 +29,7 @@
 	"variables": {
 		"location": "[resourceGroup().location]",
 		"vmSize": "Standard_D2_v3",
-		"imagePublisher": "Canonical",
+		"imagePublisher": "kali-linux",
 		"imageOffer": "kali",
 		"imageSku": "kali-2023-4",
 		"nicName": "SlugVMNic",
