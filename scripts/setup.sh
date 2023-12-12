@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo hostnamectl set-hostname slugmachine
+sudo hostnamectl set-hostname slugbox
 touch ~/.hushlogin
 
 sudo apt update
