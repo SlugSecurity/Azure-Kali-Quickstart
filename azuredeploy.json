@@ -28,7 +28,7 @@
 	},
 	"variables": {
 		"location": "[resourceGroup().location]",
-		"vmSize": "Standard_D2_v3",
+		"vmSize": "Standard_D2s_v3",
 		"imagePublisher": "kali-linux",
 		"imageOffer": "kali",
 		"imageSku": "kali-2023-4",
